@@ -9,7 +9,6 @@ class Solution {
             for(Character c : s.toCharArray()){ 
                     word.put(c,   word.get(c) != null ?  word.get(c) +1 : 1 ); 
             } 
-
             if (outer.containsKey(word)){
                 outer.get(word).add(s);
             }
@@ -23,9 +22,6 @@ class Solution {
         }
 
         System.out.println(outer);
-
-
-
         List<List<String>> res = new ArrayList<> ();
 
         // get all keys of hashmap in java
