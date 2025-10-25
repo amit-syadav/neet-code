@@ -1,4 +1,6 @@
 class Solution {
+
+
     public int trap(int[] height) {
         // flipping 2 pointer approach
 
